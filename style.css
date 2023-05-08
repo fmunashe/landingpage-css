@@ -120,7 +120,7 @@
     color: #E5E7EB;
     width: 500px;
     display: flex;
-    padding: 20px 40px; 
+    padding: 20px 40px;
 }
 
 .third-section>.inner-div:hover {
@@ -131,11 +131,11 @@
 }
 
 .third-section>.inner-div:hover button {
-background-color: green;
-outline-style: inset;
-outline-width: 5px;
-outline-color: olivedrab;
-border:0;
+    background-color: green;
+    outline-style: inset;
+    outline-width: 5px;
+    outline-color: olivedrab;
+    border: 0;
 }
 
 
