@@ -1,0 +1,115 @@
+.container {
+    height: 900px;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 0 5px 5px rgba(78, 56, 59, 0.2);
+}
+
+.logo_section {
+    background-image: url('/images/halie-west-25xggax4bSA-unsplash.jpg');
+    flex: 1;
+}
+
+.image {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    background: rgba(76, 175, 80, 0.1);
+    box-shadow: 0 5px 5px rgba(132, 139, 134, 0.9);
+}
+
+.image>img {
+    height: 200px;
+    flex: 1;
+}
+
+.image h1 {
+    flex: 1;
+}
+
+
+
+
+.form_section {
+    padding-top: 300px;
+    flex: 1;
+}
+
+.inputs_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.form_group_right,
+.form_group_left {
+    display: flex;
+    flex: 1;
+    justify-self: flex-start;
+}
+
+fieldset {
+    border: 0;
+    background-color: #ffffff;
+}
+
+label {
+    white-space: nowrap;
+
+}
+
+input {
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.name,
+.email {
+    flex: 1;
+}
+
+input:focus {
+    border: 1px solid blueviolet;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+.form_group {
+    margin: 20px auto;
+}
+
+button {
+    background-color: #596d48;
+    color: white;
+    height: 40px;
+    width: 200px;
+    padding: 2px auto;
+    border-radius: 5px;
+}
+
+a {
+    color: #596d48;
+}
+
+.inputs_container {
+    /* background-color: red; */
+    padding:30px auto;
+   
+    box-shadow: 0 3px 10px burlywood;
+    margin: 40px auto;
+}
+fieldset{
+    margin:0 50px;
+    box-shadow: 0 5px 5px #596d48;
+}
+body{
+   background-color: beige;
+}
